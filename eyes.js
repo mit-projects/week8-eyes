@@ -1,3 +1,4 @@
+// Cause the eye balls to follow the mouse cursor
 var balls = document.getElementsByClassName("ball");
 document.onmousemove = (event) => {
     var x = (event.clientX * 100) / window.innerWidth + "%";
